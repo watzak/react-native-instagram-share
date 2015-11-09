@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2928CC31BF0FBA100626B74 /* RNInstagramShare.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2928CC21BF0FBA100626B74 /* RNInstagramShare.h */; };
+		C2928CC51BF0FBA100626B74 /* RNInstagramShare.m in Sources */ = {isa = PBXBuildFile; fileRef = C2928CC41BF0FBA100626B74 /* RNInstagramShare.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2928CBD1BF0FBA100626B74 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C2928CC31BF0FBA100626B74 /* RNInstagramShare.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2928CBF1BF0FBA100626B74 /* libRNInstagramShare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNInstagramShare.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2928CC21BF0FBA100626B74 /* RNInstagramShare.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNInstagramShare.h; sourceTree = "<group>"; };
+		C2928CC41BF0FBA100626B74 /* RNInstagramShare.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNInstagramShare.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2928CBC1BF0FBA100626B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2928CB61BF0FBA100626B74 = {
+			isa = PBXGroup;
+			children = (
+				C2928CC11BF0FBA100626B74 /* RNInstagramShare */,
+				C2928CC01BF0FBA100626B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2928CC01BF0FBA100626B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2928CBF1BF0FBA100626B74 /* libRNInstagramShare.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2928CC11BF0FBA100626B74 /* RNInstagramShare */ = {
+			isa = PBXGroup;
+			children = (
+				C2928CC21BF0FBA100626B74 /* RNInstagramShare.h */,
+				C2928CC41BF0FBA100626B74 /* RNInstagramShare.m */,
+			);
+			path = RNInstagramShare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2928CBE1BF0FBA100626B74 /* RNInstagramShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2928CC81BF0FBA100626B74 /* Build configuration list for PBXNativeTarget "RNInstagramShare" */;
+			buildPhases = (
+				C2928CBB1BF0FBA100626B74 /* Sources */,
+				C2928CBC1BF0FBA100626B74 /* Frameworks */,
+				C2928CBD1BF0FBA100626B74 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNInstagramShare;
+			productName = RNInstagramShare;
+			productReference = C2928CBF1BF0FBA100626B74 /* libRNInstagramShare.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2928CB71BF0FBA100626B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = watzak;
+				TargetAttributes = {
+					C2928CBE1BF0FBA100626B74 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C2928CBA1BF0FBA100626B74 /* Build configuration list for PBXProject "RNInstagramShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2928CB61BF0FBA100626B74;
+			productRefGroup = C2928CC01BF0FBA100626B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2928CBE1BF0FBA100626B74 /* RNInstagramShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2928CBB1BF0FBA100626B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2928CC51BF0FBA100626B74 /* RNInstagramShare.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2928CC61BF0FBA100626B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2928CC71BF0FBA100626B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2928CC91BF0FBA100626B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C2928CCA1BF0FBA100626B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2928CBA1BF0FBA100626B74 /* Build configuration list for PBXProject "RNInstagramShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2928CC61BF0FBA100626B74 /* Debug */,
+				C2928CC71BF0FBA100626B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2928CC81BF0FBA100626B74 /* Build configuration list for PBXNativeTarget "RNInstagramShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2928CC91BF0FBA100626B74 /* Debug */,
+				C2928CCA1BF0FBA100626B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2928CB71BF0FBA100626B74 /* Project object */;
+}
