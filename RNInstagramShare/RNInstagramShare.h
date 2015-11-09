@@ -6,8 +6,8 @@
 //  Copyright © 2015 watzak. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "RCTBridge.h"
 
-@interface RNInstagramShare : NSObject
+@interface RNInstagramShare : NSObject <RCTBridgeModule>
 
 @end
