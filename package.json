@@ -1,0 +1,29 @@
+{
+  "name": "react-native-instagram-share",
+  "version": "0.0.6",
+  "description": "A react-native interface to share images and videos within instagram (iOS)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watzak/react-native-instagram-share.git"
+  },
+  "keywords": [
+    "react-native",
+    "instagram",
+    "share",
+    "video",
+    "image"
+  ],
+  "author": "Klaus Zahiragic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watzak/react-native-instagram-share/issues"
+  },
+  "homepage": "https://github.com/watzak/react-native-instagram-share#readme",
+  "devDependencies": {
+    "react-native": "^0.14.1"
+  }
+}
