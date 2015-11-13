@@ -2,6 +2,11 @@
 react-native interface to share images and videos within instagram (iOS)
 
 
+## Update
+Instagram does not support the caption functionality anymore
+=> http://developers.instagram.com/post/125972775561/removing-pre-filled-captions-from-mobile-sharing
+
+
 ## Getting started
 
 1. `npm install react-native-instagram-share@latest --save`
@@ -24,3 +29,8 @@ RNInstagramShare.share(video, caption);
 ```
 
 Can be easily used together with react-native-camera (https://github.com/lwansbrough/react-native-camera)
+
+
+## Demo
+
+![Alt Text](https://github.com/watzak/react-native-instagram-share/blob/master/demo.gif)
