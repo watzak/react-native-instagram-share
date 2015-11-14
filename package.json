@@ -1,6 +1,6 @@
 {
   "name": "react-native-instagram-share",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A react-native interface to share images and videos within instagram (iOS)",
   "main": "index.js",
   "scripts": {
