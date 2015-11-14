@@ -33,4 +33,4 @@ Can be easily used together with react-native-camera (https://github.com/lwansbr
 
 ## Demo
 
-![Alt Text](https://github.com/watzak/react-native-instagram-share/blob/master/demo.gif)
+![Alt Text](https://github.com/watzak/react-native-instagram-share/raw/master/demo.gif)
