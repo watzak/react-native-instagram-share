@@ -20,7 +20,7 @@ Instagram does not support the caption functionality anymore
 ## Usage
 
 ```javascript
-var RNInstagramShare = require('NativeModules').RNInstagramShare;
+var RNInstagramShare = require('react-native-instagram-share');
 
 var image = 'assets-library://asset/asset.JPG?id=C4E468CC-3B82-4822-8FEE-BA1C1DC47B4B&ext=JPG';
 var video = 'assets-library://asset/asset.mov?id=4D8172B1-EE3A-43D7-97BF-951003BFE97A&ext=mov';
